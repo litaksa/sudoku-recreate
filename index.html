@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Coba Sudoku</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+    <h1>Coba Sudoku</h1>
+
+    <!-- Tombol Play dan Stop untuk musik latar belakang -->
+    <button id="playButton">Play Hold On Tight </button>
+    <button id="stopButton">Stop</button>
+    
+    <h2 id="errors">0 KESALAHAN</h2>
+  klik angka dibawah, lalu klik angka yang akan diisi
+    
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br>
+    <div id="digits"></div>
+
+    <!-- Elemen audio untuk musik latar belakang -->
+    <audio id="backgroundMusic" src="https://cdn.glitch.global/85da96db-b342-452f-bc99-ca4024f8e095/background-music.mp3?v=1694962672559" loop></audio>
+    
+    <script src="sudoku.js"></script>
+</body>
+</html>
